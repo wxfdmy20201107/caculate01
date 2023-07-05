@@ -23,9 +23,9 @@ if st.button("点击计算"):
   result3 = amount*solve(dosis*0.001*0.001*c3*c-z*0.001,z)[0]
   
   # Output prediction
-  st.text(f"总共需要称取乙酸钠",'{:.2f}'.format(result1),"mg")
-  st.text(f"总共需要称取丙酸钠",'{:.2f}'.format(result2),"mg")
-  st.text(f"总共需要称取丁酸钠",'{:.2f}'.format(result3),"mg")
+  st.text(f"总共需要称取乙酸钠"+'{:.2f}'.format(result1)+"mg")
+  st.text(f"总共需要称取丙酸钠"+'{:.2f}'.format(result2)+"mg")
+  st.text(f"总共需要称取丁酸钠"+'{:.2f}'.format(result3)+"mg")
   
 # print("总共需要称取乙酸钠",'{:.2f}'.format(result1),"mg")
 # print("总共需要称取丙酸钠",'{:.2f}'.format(result2),"mg")
